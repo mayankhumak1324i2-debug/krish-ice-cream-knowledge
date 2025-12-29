@@ -3,70 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <title>Krish Ice Cream Knowledge</title>
-
-<style>
-body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background:#fff0f5;
-    text-align:center;
-}
-
-h1{
-    color:#ff0066;
-    margin-top:20px;
-}
-
-.container{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:20px;
-    padding:30px;
-}
-
-.card{
-    width:220px;
-    background:white;
-    border-radius:15px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.2);
-    padding:15px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:scale(1.05);
-}
-
-.card img{
-    width:100%;
-    height:180px;
-    object-fit:contain;
-}
-
-.card h3{
-    margin:10px 0;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>🍨 Krish Ice Cream Knowledge</h1>
-<p>Click any ice cream to see full details</p>
+<h1 class="title">🍨 Krish Ice Cream Knowledge</h1>
+<p class="subtitle">Click any ice cream to see full details</p>
 
 <div class="container">
 
-<div class="card" onclick="location.href='vanilla.html'">
-<img src="classic-vanilla.png">
-<h3>Vanilla Ice Cream</h3>
+<a href="vanilla.html" class="card">
+    <img src="classic-vanilla.png">
+    <h3>Vanilla Ice Cream</h3>
+</a>
+
+<a href="chocolate.html" class="card">
+    <img src="dark-chocolate.png">
+    <h3>Chocolate Ice Cream</h3>
+</a>
+
+<a href="mango.html" class="card">
+    <img src="kesar-mango.png">
+    <h3>Mango Ice Cream</h3>
+</a>
+
+<a href="strawberry.html" class="card">
+    <img src="strawberry.png">
+    <h3>Strawberry Ice Cream</h3>
+</a>
+
+<a href="butterscotch.html" class="card">
+    <img src="butterscotch.png">
+    <h3>Butterscotch Ice Cream</h3>
+</a>
+
 </div>
 
-<div class="card" onclick="location.href='chocolate.html'">
-<img src="dark-chocolate.png">
-<h3>Chocolate Ice Cream</h3>
-</div>
-
-<div class="card" onclick="location.href='mango.html'">
-<img src="kesar-man
+</body>
+</html>
